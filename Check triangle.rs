@@ -1,5 +1,6 @@
 fn main ()
 {
+    // input
     println! ("Enter a chorm ");
     let a = get_input ();
     println! ("Enter a Opposite to the chord ");
@@ -7,6 +8,7 @@ fn main ()
     println! ("Enter a Adjacent to the chord ");
     let c = get_input ();
     
+    // the operation & output
     if a > b + c
     {
         print! ("This is not a triangle.");
