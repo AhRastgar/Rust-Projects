@@ -1,7 +1,7 @@
 fn main ()
 {
     println!("This project is for draw a hollow square.");
-    let num = get_input;
+    let num = get_input();
     
     for i in 0..num
     {
@@ -16,15 +16,13 @@ fn main ()
         {
             print! (" ");
         }
-        print! ("*");
+        println! ("*");
     }
     
     for z in 0..num
     {
         print! ("* ");
     }
-    
-    return 0;
 }
 
 fn get_input() -> i32
